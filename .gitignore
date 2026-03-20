@@ -204,4 +204,18 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# Credenciales de Google — NUNCA deben subirse a GitHub
+credentials.json
+token.json
+
+# Variables de entorno con API keys
+.env
+
+# Carpeta de entorno virtual
+venv/
+env/
+
+# Archivos de prueba con datos reales
+data/real/
 __marimo__/
